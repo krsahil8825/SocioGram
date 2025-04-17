@@ -16,6 +16,8 @@ body {
 .title_for_signup_login_page {
 	text-align: center;
 	margin-top: 4rem;
+    padding: 0 1rem;
+    text-transform: capitalize;
 }
 
 @media screen and (max-width: 768px) {
