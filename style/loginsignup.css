@@ -18,6 +18,13 @@ body {
 	margin-top: 4rem;
 }
 
+@media screen and (max-width: 768px) {
+    .title_for_signup_login_page {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
 .form_container {
 	display: flex;
 	align-items: center;
@@ -26,6 +33,12 @@ body {
 	width: 98.5vw;
 	height: 90vh;
 	padding: 2rem;
+}
+
+@media screen and (max-height: 500px) {
+    .form_container {
+        margin: 4rem 0;
+    }
 }
 
 .form_title {
