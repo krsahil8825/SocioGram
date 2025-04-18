@@ -10,15 +10,18 @@
 
 <body>
     <div class="entrypage-body">
-        <h1 class="welcome-header">Welcome Back to SocioGram</h1>
+        <h1 class="welcome-header">Welcome to SocioGram</h1>
         <div class="entrypage-formcontainer">
-            <form action="signin.php" method="post" class="entryform">
-                <h3 class="entryformheader">Sign In</h3>
+            <form action="signin.php" method="post" class="signin-form entryform">
+                <h3 class="entryformheader">Sign Up</h3>
                 <input class="entryforminput" type="text" name="username" placeholder="Username" id="username" required>
+                <input class="entryforminput" type="email" name="email" placeholder="Email" id="email" required>
                 <input class="entryforminput" type="password" name="password" placeholder="Password" id="password"
                     required>
-                <p class="show-password" id="showpassword" onclick="showPasswordsignin()">Show Password</p>
-                <input class="entryforminput entryformsubmitbtn" type="submit" value="Sign In" id="signin-btn">
+                <input class="entryforminput" type="password" name="confirmPassword" placeholder="Confirm Password"
+                    id="confirmPassword" required>
+                <p class="show-password" id="showpassword" onclick="showPasswordsignup()">Show Password</p>
+                <input class="entryforminput entryformsubmitbtn" type="submit" value="Sign up" id="signup-btn">
                 <hr class="horzontal-line">
                 <div class="entryformsocialaccountloginmethord">
                     <a
@@ -29,7 +32,7 @@
                         <img class="googlfacebookentryicon" src="icons/facebook.png" alt="facebook" height="40">
                     </a>
                 </div>
-                <p>Don't have an account? <a class="entrypagerefrence" href="signup.html">Sign Up</a></p>
+                <p>Don't have an account? <a class="entrypagerefrence" href="index.html">Sign In</a></p>
             </form>
         </div>
 
