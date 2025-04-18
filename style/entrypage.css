@@ -24,6 +24,17 @@
 	margin: 1rem 0;
 }
 
+@media screen and (min-width: 650px) {
+	.welcome-header{
+		padding-top: 3rem;
+	}
+}
+
+.SocioGram-headername{
+	color: blueviolet;
+	cursor: pointer;
+}
+
 .entrypage-formcontainer {
 	display: flex;
 	justify-content: center;

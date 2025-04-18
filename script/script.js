@@ -30,9 +30,23 @@ function showPasswordsignup() {
 function toggleMenuopen(){
 	let open = document.getElementById("menu-btnopen");
 	let close = document.getElementById("menu-btnclose");
+	let menu = document.getElementById("menuUL");
+	let logoutbtntoggle = document.getElementById("logout-btn-toggle");
+
+	open.style.display = "none";
+	close.style.display = "block";
+	menu.style.display = "block";
+	logoutbtntoggle.style.display = "block";
 }
 
 function toggleMenuclose(){
 	let close = document.getElementById("menu-btnclose");
 	let open = document.getElementById("menu-btnopen");
+	let menu = document.getElementById("menuUL");
+	let logoutbtntoggle = document.getElementById("logout-btn-toggle");
+
+	open.style.display = "block";
+	close.style.display = "none";
+	menu.style.display = "none";
+	logoutbtntoggle.style.display = "none";
 }

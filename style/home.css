@@ -6,6 +6,7 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style: none;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -77,9 +78,46 @@
 	background-color: rgb(119, 0, 128);
 }
 
+#logout-btn-toggle {
+    display: none;
+    padding: 2rem 1rem;
+}
+
+#logout-btn-toggle button {
+    padding: .3rem;
+    border-radius: .7rem;
+    border: .125rem solid;
+    background-color: blueviolet;
+    cursor: pointer;
+	border: 0.125rem solid rgb(0, 0, 0);
+	box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0);
+}
+
 @media screen and (max-width: 768px) {
     .nav-menu ul {
         display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 4rem;
+        width: 100vw;
+        height: 100vh;
+        padding: 0 2rem;
+        background-color: rgb(187, 187, 255);
+    }
+
+    .nav-menu ul li {
+        display: block;
+        width: 100%;
+        padding: 1rem 0;
+        text-align: center;
+        border-bottom: .075rem solid rgb(97, 97, 97);
+    }
+
+    .nav-menu ul li a {
+        width: 100vh;
+        text-align: center;
+        color: white;
     }
 
     .nav-logout-btn {
