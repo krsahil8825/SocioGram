@@ -76,6 +76,7 @@
 	cursor: pointer;
 	border: 0.125rem solid rgb(0, 0, 0);
 	box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0);
+	z-index: 10;
 }
 
 .nav-logout-btn a button:hover {
