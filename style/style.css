@@ -9,6 +9,9 @@
     overflow-x: hidden;
 }
 
+/* navbar start here */
+/*  */
+/*  */
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -137,3 +140,70 @@
         display: block;
     }
 }
+/*  */
+/*  */
+/* Navbar ends here */
+
+/* footer start here */
+/*  */
+/*  */
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 1rem;
+	width: 100vw;
+	background-color: rgb(8, 8, 110);
+}
+
+.footer p {
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 600;
+	text-align: center;
+	margin: .5rem 0;
+}
+/*  */
+/*  */
+/* footer ends here */
+
+
+/* main content start here */
+/*  */
+/*  */
+.maincontent {
+	min-height: 100vh;
+	background-color:rgb(221, 221, 221);
+	width: 100vw;
+}
+
+.profileitems {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.Profileperosonaldetails {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: .5rem;
+	margin: .5rem;
+	max-width: 15.625rem;/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+	height: auto;
+	border: .125rem solid rgb(0, 0, 0);
+	border-radius: .5rem;
+	box-shadow: .135rem .135rem .4rem rgba(0, 0, 0);
+}
+
+.Profileperosonaldetails img {
+	height: 10rem;
+	border-radius: 25rem;
+	border: .25rem solid rgb(23, 0, 117);
+}
+
+/*  */
+/*  */
+/* main content ends here */
