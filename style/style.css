@@ -56,6 +56,10 @@
 	text-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0);
 }
 
+.nav-menu ul li a.activepage {
+	color: violet;
+}
+
 .nav-menu ul li a:hover {
 	color: rgb(9, 215, 215);
 	text-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0);
@@ -119,6 +123,10 @@
         text-align: center;
         color: white;
     }
+
+	.nav-menu ul li a.activepage {
+		color: rgb(107, 0, 107);
+	}
 
     .nav-logout-btn {
         display: none;
