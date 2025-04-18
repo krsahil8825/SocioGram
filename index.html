@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Sociogram | Signin</title>
+    <link rel="stylesheet" href="style/entrypage.css">
+</head>
+<body class="loginform-body">
+    <h1 class="welcome-header">Welcome to SocioGram</h1>
+    <div class="signin-container">
+        <form action="signin.php" method="post" class="signin-form">
+            <h3 class="signin-header">Sign In</h3>
+            <input class="signininput" type="text" name="username" placeholder="Username" id="username" required>
+            <input class="signininput" type="password" name="password" placeholder="Password" id="password" required>
+            <p class="show-password" id="showpassword" onclick="showPassword()">Show Password</p>
+            <input class="signininput" type="submit" value="Sign In" id="signin-btn">
+            <hr class="horzontal-line">
+            <div class="social-medialogin">
+                <img class="googlfacebookentryicon" src="icons/google.png" alt="google" height="40">
+                <img class="googlfacebookentryicon" src="icons/facebook.png" alt="facebook" height="40">
+            </div>
+            <p>Don't have an account? <a class="signup-link" href="signup.html">Sign Up</a></p>
+        </form>
+    </div>
+
+    <footer class="entryformfooter">
+        <p>Made with 🥰 in India | Made By Kumar Sahil</p>
+        <p>Copyright &copy; 2023 SocioGram | All Rights Reserved</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

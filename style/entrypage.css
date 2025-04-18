@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    height: auto;
+    width: 100vw;
+}
+
+.welcome-header {
+    text-align: center;
+    padding: 0 0.5rem;
+    margin: 1rem 0;
+}
+
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 0.125rem solid rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    box-shadow: 0.35rem 0.35rem 1rem rgba(0, 0, 0) ;
+}
+
+.signin-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.horzontal-line {
+    border: .0125rem solid rgb(153, 153, 153);
+    width: 75%;
+    border-radius: 0.5rem;
+}
+
+.signininput {
+    font-size: 1.2rem;
+    padding: .25rem .5rem;
+    border: 0.125rem solid rgb(153, 153, 153);
+    border-radius: 0.5rem;
+}
+
+.show-password {
+    align-self: left;
+    cursor: pointer;
+    margin-right: auto;
+    text-align: left;
+    padding: 0 .25rem;
+    color: blue;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.show-password:hover {
+    color: green;
+}
+
+.signup-link {
+    color: blue;
+    font-weight: 600;
+}
+
+.signup-link:hover {
+    color: green;
+}
+
+.googlfacebookentryicon {
+    border-radius: 1rem;
+    border: 0.002rem solid rgb(98, 98, 98);
+    cursor: pointer;
+    border-radius: 0.5rem;
+    box-shadow: 0.135rem 0.135rem .5rem rgba(0, 0, 0) ;
+    transition-delay: 2ms;
+}
+
+.googlfacebookentryicon:hover{
+    scale: 1.1;
+    transition-delay: 2ms;
+}
+
+#signin-btn {
+    background-color: blue;
+    border: 0.175rem solid rgb(54, 54, 54);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#signin-btn:hover {
+    background-color: green;
+}
+
+.entryformfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.125rem;
+    padding: 1rem .5rem;
+    width: 100%;
+}
+
+.entryformfooter p {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.loginform-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
