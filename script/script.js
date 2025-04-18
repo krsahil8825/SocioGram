@@ -26,3 +26,13 @@ function showPasswordsignup() {
 		showpassword.innerHTML = "Show Password";
 	}
 }
+
+function toggleMenuopen(){
+	let open = document.getElementById("menu-btnopen");
+	let close = document.getElementById("menu-btnclose");
+}
+
+function toggleMenuclose(){
+	let close = document.getElementById("menu-btnclose");
+	let open = document.getElementById("menu-btnopen");
+}

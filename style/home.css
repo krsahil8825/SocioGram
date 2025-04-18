@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "poppins", sans-serif, "Segoe UI", Tahoma, Geneva, Verdana,
+		sans-serif;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	width: 100vw;
+	height: 4rem;
+	background-color: rgb(8, 8, 110);
+}
+
+.nav-logo a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+	font-family: cursive;
+	font-weight: 600;
+	cursor: pointer;
+	text-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0);
+}
+
+.nav-logo a:hover {
+	color: rgb(249, 232, 0);
+	text-shadow: 0.5rem 0.5rem 1rem rgb(7, 108, 0);
+}
+
+.nav-menu span {
+    font-size: 2.5rem;
+    color: white;
+    cursor: pointer;
+    line-height: 4rem;
+    font-weight: 600;
+    display: none;
+}
+
+.nav-menu ul li {
+	display: inline-block;
+	padding: 0 1rem;
+}
+
+.nav-menu ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 600;
+	text-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0);
+}
+
+.nav-menu ul li a:hover {
+	color: rgb(9, 215, 215);
+	text-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0);
+}
+
+.nav-logout-btn a button {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 600;
+	background-color: blueviolet;
+	padding: 0.25rem;
+	border-radius: 0.7rem;
+	cursor: pointer;
+	border: 0.125rem solid rgb(0, 0, 0);
+	box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0);
+}
+
+.nav-logout-btn a button:hover {
+	background-color: rgb(119, 0, 128);
+}
+
+@media screen and (max-width: 768px) {
+    .nav-menu ul {
+        display: none;
+    }
+
+    .nav-logout-btn {
+        display: none;
+    }
+
+    .nav-menu span#menu-btnopen {
+        display: block;
+    }
+}
