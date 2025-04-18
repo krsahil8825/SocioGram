@@ -27,7 +27,19 @@ function showPasswordsignup() {
 	}
 }
 
-function toggleMenuopen(){
+// this code auto refres the web page when it responsiveness is checking
+let initialAspectRatio = window.innerWidth / window.innerHeight;
+
+window.addEventListener("resize", function () {
+	const currentAspectRatio = window.innerWidth / window.innerHeight;
+	if (currentAspectRatio !== initialAspectRatio) {
+		window.location.reload();
+		initialAspectRatio = currentAspectRatio;
+	}
+});
+// this code auto refres the web page when it responsiveness is checking
+
+function toggleMenuopen() {
 	let open = document.getElementById("menu-btnopen");
 	let close = document.getElementById("menu-btnclose");
 	let menu = document.getElementById("menuUL");
@@ -39,7 +51,7 @@ function toggleMenuopen(){
 	logoutbtntoggle.style.display = "block";
 }
 
-function toggleMenuclose(){
+function toggleMenuclose() {
 	let close = document.getElementById("menu-btnclose");
 	let open = document.getElementById("menu-btnopen");
 	let menu = document.getElementById("menuUL");
