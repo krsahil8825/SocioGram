@@ -25,12 +25,12 @@
 }
 
 @media screen and (min-width: 650px) {
-	.welcome-header{
+	.welcome-header {
 		padding-top: 3rem;
 	}
 }
 
-.SocioGram-headername{
+.SocioGram-headername {
 	color: blueviolet;
 	cursor: pointer;
 }

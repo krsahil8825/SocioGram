@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style: none;
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 /* navbar start here */
@@ -38,12 +38,12 @@
 }
 
 .nav-menu span {
-    font-size: 2.5rem;
-    color: white;
-    cursor: pointer;
-    line-height: 4rem;
-    font-weight: 600;
-    display: none;
+	font-size: 2.5rem;
+	color: white;
+	cursor: pointer;
+	line-height: 4rem;
+	font-weight: 600;
+	display: none;
 }
 
 .nav-menu ul li {
@@ -87,58 +87,58 @@
 }
 
 #logout-btn-toggle {
-    display: none;
-    padding: 2rem 1rem;
+	display: none;
+	padding: 2rem 1rem;
 }
 
 #logout-btn-toggle button {
-    padding: .3rem;
-    border-radius: .7rem;
-    border: .125rem solid;
-    background-color: blueviolet;
-    cursor: pointer;
+	padding: 0.3rem;
+	border-radius: 0.7rem;
+	border: 0.125rem solid;
+	background-color: blueviolet;
+	cursor: pointer;
 	border: 0.125rem solid rgb(0, 0, 0);
 	box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0);
 }
 
 @media screen and (max-width: 768px) {
-    .nav-menu ul {
-        display: none;
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin-top: 4rem;
-        width: 100vw;
-        height: 100vh;
-        padding: 0 2rem;
-        background-color: rgb(187, 187, 255);
-    }
+	.nav-menu ul {
+		display: none;
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin-top: 4rem;
+		width: 100vw;
+		height: 100vh;
+		padding: 0 2rem;
+		background-color: rgb(187, 187, 255);
+	}
 
-    .nav-menu ul li {
-        display: block;
-        width: 100%;
-        padding: 1rem 0;
-        text-align: center;
-        border-bottom: .075rem solid rgb(97, 97, 97);
-    }
+	.nav-menu ul li {
+		display: block;
+		width: 100%;
+		padding: 1rem 0;
+		text-align: center;
+		border-bottom: 0.075rem solid rgb(97, 97, 97);
+	}
 
-    .nav-menu ul li a {
-        width: 100vh;
-        text-align: center;
-        color: white;
-    }
+	.nav-menu ul li a {
+		width: 100vh;
+		text-align: center;
+		color: white;
+	}
 
 	.nav-menu ul li a.activepage {
 		color: rgb(107, 0, 107);
 	}
 
-    .nav-logout-btn {
-        display: none;
-    }
+	.nav-logout-btn {
+		display: none;
+	}
 
-    .nav-menu span#menu-btnopen {
-        display: block;
-    }
+	.nav-menu span#menu-btnopen {
+		display: block;
+	}
 }
 /*  */
 /*  */
@@ -162,26 +162,40 @@
 	font-size: 1.2rem;
 	font-weight: 600;
 	text-align: center;
-	margin: .5rem 0;
+	margin: 0.5rem 0;
 }
 /*  */
 /*  */
 /* footer ends here */
-
 
 /* main content start here */
 /*  */
 /*  */
 .maincontent {
 	min-height: 100vh;
-	background-color:rgb(221, 221, 221);
+	background-color: rgb(221, 221, 221);
 	width: 100vw;
 }
 
+
+/* profile page content start here */
+/*  */
+/*  */
 .profileitems {
 	display: flex;
-	flex-wrap: wrap;
 	gap: 1rem;
+	margin: 1.2rem;
+}
+
+@media screen and (max-width: 650px) {
+	.profileitems {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		gap: 1rem;
+		align-items: center;
+		margin: 1.2rem;
+	}
 }
 
 .Profileperosonaldetails {
@@ -189,20 +203,229 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding: .5rem;
-	margin: .5rem;
-	max-width: 15.625rem;/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
-	height: auto;
-	border: .125rem solid rgb(0, 0, 0);
-	border-radius: .5rem;
-	box-shadow: .135rem .135rem .4rem rgba(0, 0, 0);
+	padding: 0.5rem;
+	margin: 0.5rem;
+	height: 30rem;
+	min-width: 16rem;
+	max-width: 19rem;
+	border: 0.125rem solid rgb(0, 0, 0);
+	border-radius: 0.5rem;
+	box-shadow: 0.135rem 0.135rem 0.4rem rgba(0, 0, 0);
+}
+
+@media screen and (max-width: 650px) {
+	.Profileperosonaldetails {
+		min-width: 100%;
+	}
+}
+
+.Profileperosonaldetailsheader {
+	font-size: 2.5rem;
+	font-weight: 600;
+	text-align: center;
+	margin: 0.5rem;
+	font-family: cursive;
+}
+
+.Profileperosonaldetailsname {
+	font-size: 2rem;
+	font-weight: 600;
+	text-align: center;
+}
+
+.ProfileperosonaldetailsStudyat {
+	font-size: 1.2rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+.Profileperosonaldetailsfollowingfollowers {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.Profileperosonaldetailsfollowingfollowers p {
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-weight: 600;
+	text-align: center;
+	color: blueviolet;
+}
+
+.Profileperosonaldetailsabout {
+	margin: 0.7rem 0.3rem;
+	border: 0.2 solid rgb(124, 179, 255);
+	border-radius: 0.5rem;
+	padding: 0;
+	width: 100%;
+}
+
+.Profileperosonaldetailsaboutheader {
+	font-size: 2rem;
+	font-weight: 600;
+	text-align: center;
+}
+
+.Profileperosonaldetailsaboutbody {
+	font-size: 1rem;
+	font-weight: 400;
+	text-align: center;
 }
 
 .Profileperosonaldetails img {
 	height: 10rem;
 	border-radius: 25rem;
-	border: .25rem solid rgb(23, 0, 117);
+	border: 0.25rem solid rgb(23, 0, 117);
 }
+
+.postcontainerprofile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	width: 100%;
+	border: 0.125rem solid rgb(0, 0, 0);
+	border-radius: 0.5rem;
+	box-shadow: 0.135rem 0.135rem 0.4rem rgba(0, 0, 0);
+}
+
+.postsectiononprofile {
+	font-size: 2.5rem;
+	font-weight: 600;
+	text-align: center;
+	margin: 0.5rem;
+	font-family: cursive;
+}
+
+.postcontainerprofile .addpostcontainer {
+	padding: 1rem;
+	width: 100%;
+	border: 0.125rem solid rgb(110, 110, 110);
+	border-radius: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.postcontainerprofile .addpostcontainer p {
+	font-size: 1.2rem;
+	font-weight: 600;
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.postcontainerprofile .addpostcontainer input {
+	font-size: 0.7rem;
+	font-weight: 400;
+	margin: 0.2rem;
+	border: 0.125rem solid rgb(0, 0, 0);
+	border-radius: 0.5rem;
+	box-shadow: 0.135rem 0.135rem 0.4rem rgba(0, 0, 0);
+	padding: 0.25rem;
+	cursor: pointer;
+}
+
+.postcontainerprofile .addpostcontainer button {
+	font-size: 0.7rem;
+	font-weight: 400;
+	margin: 0.2rem;
+	border: 0.125rem solid rgb(0, 0, 0);
+	border-radius: 0.5rem;
+	box-shadow: 0.135rem 0.135rem 0.4rem rgba(0, 0, 0);
+	padding: 0.25rem;
+	cursor: pointer;
+	color: white;
+	background-color: blueviolet;
+}
+
+.postcollectioncontainer {
+	width: 100%;
+}
+
+.allpostsavilavle {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.postcollectioncontainer p {
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin: 2rem 0.5rem 0.5rem 0.5rem;
+}
+
+.postsCards {
+	padding: 0.25rem;
+	width: 40%;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 2rem;
+	box-shadow: 0.135rem 0.135rem 0.4rem rgba(0, 0, 0);
+	display: flex;
+	flex-direction: column;
+	margin: 1rem;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+	.postsCards {
+		width: 100%;
+	}
+}
+
+.postsCards img {
+	width: 100%;
+	border-radius: 2rem;
+}
+
+.postsCards div {
+	width: 100%;
+}
+
+.postsCards div p {
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 500;
+	margin: 0.2rem;
+}
+
+.postsCards div div {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 400;
+	padding: 0 1rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.postsCards div div p {
+	font-size: 1rem;
+	font-weight: 400;
+	padding: 0.2rem;
+	line-height: 100%;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+	.postsCards div div p {
+		font-size: 0.7rem;
+		padding: auto 0.2rem;
+		color: black;
+	}
+}
+/*  */
+/*  */
+/* profile page content ends here */
 
 /*  */
 /*  */
