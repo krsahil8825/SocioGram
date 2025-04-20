@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | 🤗Have A Nice Day</title>
     <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/home.css">
 </head>
 
 <body>
     <nav class="navbar">
         <div class="nav-logo"><a href="/home.html">SocioGram</a></div>
         <div class="nav-menu">
-            <span id="menu-btnopen" onclick="toggleMenuopen()">&#9776</span>
-            <span id="menu-btnclose" onclick="toggleMenuclose()">&#9746</span>
+            <span id="menu-btnopen" onclick="toggleMenuopen()">&#9776;</span>
+            <span id="menu-btnclose" onclick="toggleMenuclose()">&#9746;</span>
             <ul id="menuUL">
                 <li><a class="activepage" href="/home.html">Home</a></li>
                 <li><a href="/notification.html">Notification</a></li>
@@ -28,7 +29,8 @@
     </nav>
 
     <main class="maincontent">
-
+        <div id="posts-container"></div>
+        <div id="loader">Loading...</div>
     </main>
 
     <footer class="footer">
@@ -36,6 +38,7 @@
         <p>Copyright &copy; 2025 SocioGram | All Rights Reserved</p>
     </footer>
 
+    <script src="/script/home.js"></script>
     <script src="/script/script.js"></script>
 </body>
 
