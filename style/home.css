@@ -1,19 +1,27 @@
 .maincontent {
-    padding: .5rem;
+	padding: 1rem 0.5rem;
 }
 
 .post {
 	width: 100%;
-	max-width: 400px; 
-	margin: 0 auto 20px;
+	max-width: 38rem;
+	margin: 0 auto 1.25rem;
 	position: relative;
 	aspect-ratio: 1 / 1;
-	border-radius: 10px;
+	border-radius: 0.625rem;
 	overflow: hidden;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.2);
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	cursor: pointer;
+	transition-delay: 10ms;
+}
+
+.post:hover {
+	scale: 1.02;
+	transition-delay: 10ms;
+	z-index: 1;
 }
 
 .post-img {
@@ -25,7 +33,7 @@
 
 #loader {
 	text-align: center;
-	padding: 20px;
+	padding: 1.25rem;
 	display: none;
 	font-weight: bold;
 }

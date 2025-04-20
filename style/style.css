@@ -177,7 +177,6 @@
 	width: 100vw;
 }
 
-
 /* profile page content start here */
 /*  */
 /*  */
@@ -432,20 +431,20 @@
 /*  */
 .Nodicfiactioncontainer {
 	display: flex;
-	padding: 1rem .5rem;
+	padding: 1rem 0.5rem;
 	align-items: center;
 	flex-direction: row;
 	justify-content: left;
 	gap: 1rem;
-	border: .04rem solid rgb(109, 109, 109);
-	border-radius: .5rem;
+	border: 0.04rem solid rgb(109, 109, 109);
+	border-radius: 0.5rem;
 	margin: 1rem;
 }
 
 .Nodicfiactionicon {
-	padding: .25rem;
+	padding: 0.25rem;
 	border-radius: 1rem;
-	border: .06rem solid rgb(0, 0, 0);
+	border: 0.06rem solid rgb(0, 0, 0);
 	box-shadow: 0.07rem 0.135rem 0.15rem rgba(0, 0, 0);
 	cursor: pointer;
 	min-width: 2rem;
@@ -457,9 +456,9 @@
 
 .Nodicfiactioncontainer div p {
 	text-align: justify;
-	font-size: .8rem;
+	font-size: 0.8rem;
 	font-weight: 500;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 /*  */
@@ -490,7 +489,6 @@
 /*  */
 /*  */
 /* Friends page contents ends here */
-
 
 /*  */
 /*  */
