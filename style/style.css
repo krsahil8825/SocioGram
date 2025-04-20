@@ -466,6 +466,32 @@
 /*  */
 /* Notification page contents endes here */
 
+/* Freiends page contents start here */
+/*  */
+/*  */
+.Friendscontainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	min-height: 90vh;
+	padding: 1rem;
+}
+
+.Friendscontainergroup {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	padding: 1rem;
+}
+/*  */
+/*  */
+/* Friends page contents ends here */
+
+
 /*  */
 /*  */
 /* main content ends here */
