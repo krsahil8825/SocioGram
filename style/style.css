@@ -427,6 +427,45 @@
 /*  */
 /* profile page content ends here */
 
+/* Notification Page Contents Start here */
+/*  */
+/*  */
+.Nodicfiactioncontainer {
+	display: flex;
+	padding: 1rem .5rem;
+	align-items: center;
+	flex-direction: row;
+	justify-content: left;
+	gap: 1rem;
+	border: .04rem solid rgb(109, 109, 109);
+	border-radius: .5rem;
+	margin: 1rem;
+}
+
+.Nodicfiactionicon {
+	padding: .25rem;
+	border-radius: 1rem;
+	border: .06rem solid rgb(0, 0, 0);
+	box-shadow: 0.07rem 0.135rem 0.15rem rgba(0, 0, 0);
+	cursor: pointer;
+	min-width: 2rem;
+}
+
+.Nodicfiactionicon:hover {
+	scale: 1.1;
+}
+
+.Nodicfiactioncontainer div p {
+	text-align: justify;
+	font-size: .8rem;
+	font-weight: 500;
+    cursor: pointer;
+}
+
+/*  */
+/*  */
+/* Notification page contents endes here */
+
 /*  */
 /*  */
 /* main content ends here */
